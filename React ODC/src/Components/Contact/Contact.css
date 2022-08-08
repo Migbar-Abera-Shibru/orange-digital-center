@@ -1,0 +1,236 @@
+.contact{
+    width: 100%;
+    /* height: 1000vh; */
+    flex-direction: column;
+    padding-top: 60px;
+    
+    
+}
+.spanpart{
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 10rem;
+    
+}
+.yemej>span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.hul>span{
+    font-size: 2rem;
+    font-weight: bold;
+    color: orange;
+}
+.sos>span{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.teklalaw{
+    display: flex;
+    margin: 20px;
+    gap: 20rem;
+    padding: 40px;
+    padding-left: 200px;
+    
+
+}
+.c-left{
+    font-weight: bold;
+    color: white;
+    flex-direction: column;
+
+}
+.c-left>h1{
+    color: orange;
+}
+.c-right{
+    font-weight: bold;
+    color: white;
+}
+.c-right>h1{
+    color: orange;
+}
+.van>img{
+    height: 80px;
+    width: 70px;
+    border-radius: 100%;
+}
+.nic>img{
+    height: 80px;
+    width: 70px;
+    border-radius: 100%;
+}
+.emm>img{
+    height: 80px;
+    width: 70px;
+    border-radius: 100%;
+    align-items: center;
+}
+.van>span:nth-of-type(1) {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nic>span:nth-of-type(1) {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.emm>span:nth-of-type(1) {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.van{
+    padding: 20px;
+}
+.nic{
+    padding: 20px;
+}
+.emm{
+    padding: 20px;
+}
+.syl>img{
+   
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+}
+.tom>img{
+   
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+
+}
+.car>img{
+   
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+
+}
+.em>img{
+   
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+
+}
+.lbi>img{
+   
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+
+}
+.syl>span:nth-of-type(1) {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.tom>span:nth-of-type(1) {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.car>span:nth-of-type(1) {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.em>span:nth-of-type(1) {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.lbi>span:nth-of-type(1) {
+    color: orange;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.contactus{
+    justify-content: center;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* padding-left: 40rem; */
+    width: 20rem;
+    height: 18rem;
+    background: white;
+    margin-left: 20rem;
+    padding: 80px;
+    gap: 2rem;
+    width: 35rem;
+    border-radius: 20px;
+}
+.contactus>form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+    
+    
+}
+.contactus .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid orange;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.textarea{
+    height: 6rem;
+}
+.button{
+    background-color: rgb(252, 207, 124);
+    border-radius: 20px;
+    color: black;
+    width: 15rem;
+    box-shadow: (--orange);
+    border: orange;
+}
+.contactus>span{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.c-footer{
+    background: gray;
+    /* width: 100%; */
+    padding: 1rem;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+.c-yewtegnaw{
+    margin: 20px;
+    background: black;
+    color: white;
+    padding: 1rem;
+}
+.social{
+    gap: 2rem;
+}
+.social:nth-of-type(1){
+    cursor: pointer;
+    color: orange;
+}
+.social:nth-of-type(2){
+    cursor: pointer;
+}
+.social:nth-of-type(3){
+    cursor: pointer;
+}
+.social:nth-of-type(4){
+    cursor: pointer;
+}

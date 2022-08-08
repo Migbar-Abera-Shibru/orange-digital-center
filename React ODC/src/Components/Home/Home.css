@@ -1,0 +1,168 @@
+.home{
+    display: flex ;
+    /* height: 77vh; */
+    margin-top: 1rem;
+    flex-direction: column;
+}
+.h-singleLine{
+    padding: -20px;
+    margin: 0;
+    text-align: left;
+    padding-left: 20px;
+}
+.h-singleLine>span{
+   color: black; 
+   font-weight: bold;
+   font-size: 1rem;
+   display: flex;
+
+}
+
+.h-laughingimg>img{
+    width: 75rem;
+    height: 20rem;
+    padding-left: 0px;
+    display: flex;
+}
+.h-tgicon{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 40px;
+    padding-left: 80px ;
+    gap: 2rem;
+    
+
+}
+.h-tgicon :nth-child(1){
+   color: black; 
+   font-weight: bold;
+   font-size: 3rem;
+
+}
+.h-tgicon :nth-child(2){
+    color: black;
+    font-weight: bold;
+}
+.h-lehuletmikefelew{
+    
+        padding: 3rem 3rem 0 3rem; 
+        display: flex;
+        height: 80vh;
+        margin-top: 4rem;
+        gap: 2rem;
+
+  
+}
+.h-right{
+    display: flex;
+    position: relative; 
+    flex: 1;
+    flex-direction: column;
+    padding-left: 40px;
+    text-align: left;
+    gap: 2rem;
+}
+.h-right :nth-child(1){
+    color: orange; 
+    font-weight: bold;
+    font-size: 30px;
+}
+.h-right :nth-child(2){
+    color: white; 
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 20px;
+    
+    
+}
+.h-left{
+    flex: 1;
+    position: relative;
+}
+.h-left>*{
+    position: absolute;
+    z-index: 1;
+}
+.h-left>:nth-child(1){
+    transform: scale(0.49);
+    left: -15%;
+    top:-9% ;
+}
+.h-left>:nth-child(2){
+    top: -4.6rem; 
+    transform: scale(0.47);
+    left: -3rem;
+}
+.h-left>:nth-child(3){
+     transform: scale(1.2);
+     left: 28%;
+}
+.h-left>:nth-child(4){
+    transform: scale(0.4);
+    top: -19%;
+    left: -24%;
+    border-radius: 50%;
+    padding: 0;
+}
+.listcountries{
+    padding: 0 3rem 0 3rem;
+     display: flex;
+     height: 30rem;
+     margin-bottom: 8rem;
+     /* margin-top: 3rem; */
+     margin-bottom: 13rem;
+     padding-top: 3rem;
+}
+.h-left2{
+     display: flex;
+     flex-direction: column;
+     position: relative;
+}
+.h-left2> :nth-child(1){
+    color: var(--black);
+     font-size: 2rem;
+     font-weight: bold;
+
+}
+.h-right2{
+    position: relative;
+}
+.h-right2>*{
+    position: absolute;
+}
+.h-right2> img{
+    transform: scale(0.4);
+}
+.footer{
+    background: black;
+    color: white    ;
+}
+.yekerew{
+    display: table;
+    gap: 2rem;
+}
+.Column{
+    display: table-cell;
+    margin: 20px;
+    padding: 3rem;
+
+
+}
+.ionsthing{
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+
+    
+}
+.ionsthing :nth-child(2) :hover{
+    color: orange;
+    cursor: pointer;
+
+}
